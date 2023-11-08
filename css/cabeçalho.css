@@ -1,4 +1,26 @@
 .cabeçalho {
-    background-color: #205377;
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.23em;
     color: #fff;
+    background-color: #205377;
+}
+
+.cabeçalho__logo {
+    padding: 1.5em;
+    width: 14.5em;
+}
+.cabeçalho__menu {
+    background-color: #27283A87;
+}
+
+.cabeçalho__item-menu {
+    display: inline-block;
+}
+
+.cabeçalho__item-menu a {
+    display: inline-block;
+    padding: 1.86em 1.42em;
 }
